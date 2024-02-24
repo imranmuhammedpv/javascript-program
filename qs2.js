@@ -10,10 +10,10 @@ covid_data = [
     [8,'Kollam',14000,2500,25000,18000,2700]
 ]
 
-//  district having Highest +ve case - 
+//  1 district having Highest +ve case - 
 // let a=covid_data.reduce((x1,x2)=>x1[2]>x2[2]?x1:x2)
 // console.log(a[1])
-// district having Highest 1st dose vaccine - 
+// 2 district having Highest 1st dose vaccine - 
 
 // let b=covid_data.reduce((p1,p2)=>p1[5]>p2[5]?p1:p2)
 // console.log("highest 1st dose:",b[1]);
@@ -24,11 +24,12 @@ covid_data = [
 // console.log(" lowest death rate",d[1]);
 
 // /4. sort data with +ve case in descending order -
-// let r =covid_data.sort((p1,p2)=>p2[2]-p1[2]).forEach(k=>console.log(k[1],k[2]));
-// console.log(r);
+let r =covid_data.sort((p1,p2)=>p2[2]-p1[2]);
+console.log(r)
+
 
 // 5. is district with +ve cases > 15000 - 
-let t=covid_data.filter(k=>k[2]>15000).forEach(k=>console.log(k[1]));
+// let t=covid_data.filter(k=>k[2]>15000).forEach(k=>console.log(k[1]));
 
 // 6 sort data with 1st dose vaccine - 
 // let r =covid_data.sort((p1,p2)=>p1[5]-p2[5]).forEach(k=>console.log(k[1],k[5]));
