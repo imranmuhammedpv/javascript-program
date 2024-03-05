@@ -30,6 +30,11 @@
 // let a="my house name abcyuiop and name is imran pv"
 // let r=a.startsWith("my");
 // console.log(r);
-let a="my house name abcyuiop and name is imran pv"
-let r=a.endsWith("pv");
-console.log(r);
+// let a="my house name abcyuiop and name is imran pv"
+// let r=a.endsWith("pv");
+// console.log(r);
+
+
+
+
+

@@ -24,8 +24,7 @@ covid_data = [
 // console.log(" lowest death rate",d[1]);
 
 // /4. sort data with +ve case in descending order -
-let r =covid_data.sort((p1,p2)=>p2[2]-p1[2]);
-console.log(r)
+// let r =covid_data.sort((p1,p2)=>p2[2]-p1[2]).forEach(k=>console.log(k[1],k[2]));
 
 
 // 5. is district with +ve cases > 15000 - 
@@ -35,5 +34,5 @@ console.log(r)
 // let r =covid_data.sort((p1,p2)=>p1[5]-p2[5]).forEach(k=>console.log(k[1],k[5]));
 // console.log(r);
 //7. Print Thrissur details - 
-// let thrissur=covid_data.filter(k=>k[1] =='Thrissur').forEach(k=>console.log(k));
+let thrissur=covid_data.filter(k=>k[1] =='Thrissur').forEach(k=>console.log(k));
 // console.log(thrissur);
